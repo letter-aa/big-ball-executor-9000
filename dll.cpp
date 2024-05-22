@@ -4,7 +4,6 @@
 #include <map>
 #include <string>
 #include <tchar.h>
-//#include <map>
 
 #define printStructureArgs int, const char*
 
@@ -17,7 +16,7 @@ typedef struct charExist {
     bool char2 = false;
 };
 
-//uintptr_t base = 0x00007FF6356F0000;
+//uintptr_t base = 0x0;
 uintptr_t printAddress = 0x0; // address here!
 
 //long long info = 1i64;
